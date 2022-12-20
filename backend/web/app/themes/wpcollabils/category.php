@@ -14,7 +14,7 @@ get_header(); ?>
             <?php while (have_posts()): ?>
                 <?php the_post(); ?>
                       <a class="div-categ-item" href="<?php the_permalink() ?>" class="text-danger post-link">
-                            <h3 class="mb-3"><?= the_title() ?></h3>
+                            <h3 class="mb-3 text-center"><?= the_title() ?></h3>
                       </a>
               
             <?php endwhile; ?>

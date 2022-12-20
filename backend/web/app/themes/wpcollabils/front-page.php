@@ -31,7 +31,7 @@ get_header();
           <div class="container-buttons">
             <div class="row g-3 d-flex justify-content-around">
               <div class="col-lg-4 col-sm-6">
-                <a href={{ path('video_home') }}>
+                <a href="http://wpcollabils.local/blog/">
                   <div class="main-buttons-item btn-videos">
                     <div class="main-buttons-text">
                       <i class="fa-solid fa-clapperboard"></i>
@@ -67,7 +67,6 @@ get_header();
         <!-- main-buttons end -->
       </div>
     </main>
-
 <?php
 get_footer();
 ?>

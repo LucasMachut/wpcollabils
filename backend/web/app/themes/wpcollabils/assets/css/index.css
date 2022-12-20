@@ -349,7 +349,8 @@ p.text {
 
 /*************PAGE CATEGORY SINGLE************/
 .container-categories{
-    width: 80%;
+    width: 90%;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -358,9 +359,20 @@ p.text {
     width: 18%;
     height: 30vh;
     border: solid 1px white;
-    padding: 2%;
-    margin: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.div-categ-item h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*************PAGE SINGLE POST************/
+.single-post-content-container{
+    width: 80%;
+    margin: auto;
+
 }

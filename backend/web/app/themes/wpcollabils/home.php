@@ -18,7 +18,7 @@ $categories = get_terms( array(
         <ul class="d-flex justify-content-around flex-wrap">
         <?php foreach($categories as $categ) :?>
 
-            <a class="div-categ-item" href="http://wpcollabils.local/category/<?= $categ->slug ?>">
+            <a class="div-categ-item m-5" href="http://wpcollabils.local/category/<?= $categ->slug ?>">
                 <h3> <?= $categ->name ?></h3>
             </a>
         <?php endforeach; ?>
